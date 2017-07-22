@@ -1,0 +1,23 @@
+{
+  "name": "friend_finder",
+  "version": "1.0.0",
+  "description": "WebDev Bootcamp week 13 homework - Friend Finder application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aellyl/Friend_Finder.git"
+  },
+  "author": "Aelly Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aellyl/Friend_Finder/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
