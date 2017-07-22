@@ -36,7 +36,7 @@ function findTopMatch(newFriend){
     {
         for(var j=0;j<friendsArr[i].scores.length;j++)
         {
-            totalDiff+=getDiff(friendsArr[i].scores[j],newFriend.scores[j]);
+            totalDiff+=getDiff(parseInt(friendsArr[i].scores[j]),newFriend.scores[j]);
             
         }
         //console.log("totalDiff: "+ totalDiff+" for "+friendsArr[i].name);
